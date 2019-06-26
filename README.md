@@ -1,0 +1,6 @@
+# Starcraft-2-Unit-Recognition
+
+Starcraft 2 is an extremely fast paced RTS game where players from around the world versus one another to improve in skill and ranking. Starcraft 2 started the era of video game streaming during 2010 to 2012 by dominating the two most popular streaming sites at the time: own3d.tv and twitch.tv formerly known as justin.tv. Twitch.tv is now the most popular US video game streaming site with little competition in it’s way and allows for streamers to interact with the millions of unique viewers that visit the site to watch video game tournaments, ladder climbing matches, speed runs, and many other video game centric content. 
+Using deep learning, we can create a model that recognizes Starcraft 2 units and structures as a way to create an interactive stream. If the viewer decides to hover over one of the units that has been recognized by the model, we can display the unit’s details and background information giving unfamiliar viewers a deeper understanding of the game. This model can be used to handle in-game replays, live streams, and other video content. 
+
+Currently the only thing I lack are images, to train Yolo for object dectection (github contains config file)
