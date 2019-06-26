@@ -1,0 +1,4 @@
+python flow --model cfg/tiny-yolo-sc2.cfg --labels "C:\Users\Orchard\Desktop\sc2_test_images\label.txt" --train --trainer adam --dataset "C:\Users\Orchard\Desktop\sc2_test_images" --annotation "C:\Users\Orchard\Desktop\sc2_test_images" --gpu 0.8 --epoch 5
+
+
+python flow --model cfg/tiny-yolo-sc2.cfg --imgdir "C:\Users\Orchard\Downloads\sc2 images" --load -1 --labels "C:\Users\Orchard\Desktop\sc2_test_images\label.txt" --gpu 0.8
